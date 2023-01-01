@@ -34,19 +34,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/console-log-each
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
-```
-The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/console-log-each/tags). For example,
-
-```javascript
-import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@v0.0.1-deno/mod.js';
+var logEach = require( '@stdlib/console-log-each' );
 ```
 
 #### logEach( str\[, ...args] )
@@ -96,12 +107,12 @@ logEach( '%d < %d', x, y );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@deno/mod.js';
-import filledBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@deno/mod.js';
-import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
-import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
+var naryFunction = require( '@stdlib/utils-nary-function' );
+var filledBy = require( '@stdlib/array-filled-by' );
+var map = require( '@stdlib/utils-map' );
+var abs = require( '@stdlib/math-base-special-abs' );
+var logEach = require( '@stdlib/console-log-each' );
 
 var rand = discreteUniform( -50, 50 );
 var x = filledBy( 10, 'float64', rand );
@@ -139,7 +150,7 @@ logEach( 'abs(%d) = %d', x, y );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -156,7 +167,7 @@ See [LICENSE][stdlib-license].
 
 ## Copyright
 
-Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
+Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 </section>
 
@@ -169,8 +180,8 @@ Copyright &copy; 2016-2022. The Stdlib [Authors][stdlib-authors].
 [npm-image]: http://img.shields.io/npm/v/@stdlib/console-log-each.svg
 [npm-url]: https://npmjs.org/package/@stdlib/console-log-each
 
-[test-image]: https://github.com/stdlib-js/console-log-each/actions/workflows/test.yml/badge.svg?branch=v0.0.1
-[test-url]: https://github.com/stdlib-js/console-log-each/actions/workflows/test.yml?query=branch:v0.0.1
+[test-image]: https://github.com/stdlib-js/console-log-each/actions/workflows/test.yml/badge.svg?branch=main
+[test-url]: https://github.com/stdlib-js/console-log-each/actions/workflows/test.yml?query=branch:main
 
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/console-log-each/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/console-log-each?branch=main
