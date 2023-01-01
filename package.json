@@ -40,7 +40,7 @@
     "@stdlib/assert-is-collection": "^0.0.x",
     "@stdlib/assert-is-string": "^0.0.x",
     "@stdlib/console-log": "^0.0.x",
-    "@stdlib/string-format": "^0.0.x"
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.x"
   },
   "devDependencies": {
     "@stdlib/array-filled-by": "^0.0.x",
