@@ -41,7 +41,7 @@
     "@stdlib/assert-is-collection": "^0.0.8",
     "@stdlib/assert-is-string": "^0.0.8",
     "@stdlib/console-log": "^0.0.1",
-    "@stdlib/string-format": "^0.0.3"
+    "@stdlib/error-tools-fmtprodmsg": "^0.0.2"
   },
   "devDependencies": {
     "@stdlib/array-complex128": "^0.0.6",
