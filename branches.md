@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/console/log-each"
-click B href "https://github.com/stdlib-js/console-log-each/tree/main"
-click C href "https://github.com/stdlib-js/console-log-each/tree/production"
-click D href "https://github.com/stdlib-js/console-log-each/tree/esm"
-click E href "https://github.com/stdlib-js/console-log-each/tree/deno"
-click F href "https://github.com/stdlib-js/console-log-each/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/console/log-each"
+%% click B href "https://github.com/stdlib-js/console-log-each/tree/main"
+%% click C href "https://github.com/stdlib-js/console-log-each/tree/production"
+%% click D href "https://github.com/stdlib-js/console-log-each/tree/esm"
+%% click E href "https://github.com/stdlib-js/console-log-each/tree/deno"
+%% click F href "https://github.com/stdlib-js/console-log-each/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/console/log-each
