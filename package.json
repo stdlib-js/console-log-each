@@ -37,7 +37,7 @@
     "url": "https://github.com/stdlib-js/stdlib/issues"
   },
   "dependencies": {
-    "@stdlib/array-base-accessors": "^0.0.1",
+    "@stdlib/array-base-accessors": "^0.0.2",
     "@stdlib/assert-is-collection": "^0.0.8",
     "@stdlib/assert-is-string": "^0.0.8",
     "@stdlib/console-log": "^0.0.1",
