@@ -222,9 +222,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/console-log-each/main/LICENSE
 
-[@stdlib/array/complex128]: https://github.com/stdlib-js/stdlib
+[@stdlib/array/complex128]: https://github.com/stdlib-js/array-complex128
 
-[@stdlib/array/complex64]: https://github.com/stdlib-js/stdlib
+[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64
 
 </section>
 
