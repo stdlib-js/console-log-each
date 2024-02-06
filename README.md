@@ -45,14 +45,32 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/console-log-each
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
+var logEach = require( '@stdlib/console-log-each' );
 ```
 
 #### logEach( str\[, ...args] )
@@ -102,28 +120,19 @@ logEach( '%d < %d', x, y );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-var discreteUniform = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-discrete-uniform' ).factory;
-import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
-import filledBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
-import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@esm/index.mjs';
-import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm/index.mjs';
-import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
+```javascript
+var discreteUniform = require( '@stdlib/random-base-discrete-uniform' ).factory;
+var naryFunction = require( '@stdlib/utils-nary-function' );
+var filledBy = require( '@stdlib/array-filled-by' );
+var map = require( '@stdlib/utils-map' );
+var abs = require( '@stdlib/math-base-special-abs' );
+var logEach = require( '@stdlib/console-log-each' );
 
 var rand = discreteUniform( -50, 50 );
 var x = filledBy( 10, 'float64', rand );
 
 var y = map( x, naryFunction( abs, 1 ) );
 logEach( 'abs(%d) = %d', x, y );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -155,7 +164,7 @@ logEach( 'abs(%d) = %d', x, y );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -209,15 +218,18 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [es-module]: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Modules
 
 [deno-url]: https://github.com/stdlib-js/console-log-each/tree/deno
+[deno-readme]: https://github.com/stdlib-js/console-log-each/blob/deno/README.md
 [umd-url]: https://github.com/stdlib-js/console-log-each/tree/umd
+[umd-readme]: https://github.com/stdlib-js/console-log-each/blob/umd/README.md
 [esm-url]: https://github.com/stdlib-js/console-log-each/tree/esm
+[esm-readme]: https://github.com/stdlib-js/console-log-each/blob/esm/README.md
 [branches-url]: https://github.com/stdlib-js/console-log-each/blob/main/branches.md
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/console-log-each/main/LICENSE
 
-[@stdlib/array/complex128]: https://github.com/stdlib-js/array-complex128/tree/esm
+[@stdlib/array/complex128]: https://github.com/stdlib-js/array-complex128
 
-[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64/tree/esm
+[@stdlib/array/complex64]: https://github.com/stdlib-js/array-complex64
 
 </section>
 
