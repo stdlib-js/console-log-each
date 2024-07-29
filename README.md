@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
+import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@v0.2.2-esm/index.mjs';
 ```
 
 #### logEach( str\[, ...args] )
@@ -113,7 +113,7 @@ import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-funct
 import filledBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@esm/index.mjs';
 import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@esm/index.mjs';
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@esm/index.mjs';
-import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@esm/index.mjs';
+import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@v0.2.2-esm/index.mjs';
 
 var rand = discreteUniform( -50, 50 );
 var x = filledBy( 10, 'float64', rand );
