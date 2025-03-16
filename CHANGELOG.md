@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-01-20)
+## Unreleased (2025-03-16)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`459b0f3`](https://github.com/stdlib-js/stdlib/commit/459b0f3d8ba0d486fe172b50a189d6aa0b1ac714) - **test:** add test and document that arguments are optional _(by Athan Reines)_
 -   [`bea073a`](https://github.com/stdlib-js/stdlib/commit/bea073a08f993743ead6fdc8fc331f39bb942106) - **chore:** fix docs and add keywords _(by Philipp Burckhardt)_
 
 </details>
@@ -24,8 +25,9 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
+-   Athan Reines
 -   Philipp Burckhardt
 
 </section>
