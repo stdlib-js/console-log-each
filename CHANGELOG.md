@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`6c5c97a`](https://github.com/stdlib-js/stdlib/commit/6c5c97aeeb91faea480f67bb999b4e2c6f705cfa) - **docs:** fix example _(by Athan Reines)_
 -   [`459b0f3`](https://github.com/stdlib-js/stdlib/commit/459b0f3d8ba0d486fe172b50a189d6aa0b1ac714) - **test:** add test and document that arguments are optional _(by Athan Reines)_
 -   [`bea073a`](https://github.com/stdlib-js/stdlib/commit/bea073a08f993743ead6fdc8fc331f39bb942106) - **chore:** fix docs and add keywords _(by Philipp Burckhardt)_
 
