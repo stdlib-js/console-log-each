@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-17)
+## Unreleased (2025-03-23)
 
 <section class="commits">
 
@@ -12,6 +12,7 @@
 
 <details>
 
+-   [`cc611d0`](https://github.com/stdlib-js/stdlib/commit/cc611d0cebdbe7cb96e9ac96d83b692ab34e9e3b) - **docs:** add examples for `string` and `float` formatting [(#6325)](https://github.com/stdlib-js/stdlib/pull/6325) _(by Karan Anand)_
 -   [`6c5c97a`](https://github.com/stdlib-js/stdlib/commit/6c5c97aeeb91faea480f67bb999b4e2c6f705cfa) - **docs:** fix example _(by Athan Reines)_
 -   [`459b0f3`](https://github.com/stdlib-js/stdlib/commit/459b0f3d8ba0d486fe172b50a189d6aa0b1ac714) - **test:** add test and document that arguments are optional _(by Athan Reines)_
 -   [`bea073a`](https://github.com/stdlib-js/stdlib/commit/bea073a08f993743ead6fdc8fc331f39bb942106) - **chore:** fix docs and add keywords _(by Philipp Burckhardt)_
@@ -26,9 +27,10 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Karan Anand
 -   Philipp Burckhardt
 
 </section>
