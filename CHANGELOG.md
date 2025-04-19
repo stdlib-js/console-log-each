@@ -4,7 +4,17 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-03-23)
+## Unreleased (2025-04-19)
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`5d5742b`](https://github.com/stdlib-js/stdlib/commit/5d5742b1d6b22eb0e9d597242035be42833c004c) - update `format-tokenize` to correctly handle escaped percent signs [(#6695)](https://github.com/stdlib-js/stdlib/pull/6695)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="commits">
 
@@ -12,6 +22,7 @@
 
 <details>
 
+-   [`5d5742b`](https://github.com/stdlib-js/stdlib/commit/5d5742b1d6b22eb0e9d597242035be42833c004c) - **fix:** update `format-tokenize` to correctly handle escaped percent signs [(#6695)](https://github.com/stdlib-js/stdlib/pull/6695) _(by Karan Anand)_
 -   [`cc611d0`](https://github.com/stdlib-js/stdlib/commit/cc611d0cebdbe7cb96e9ac96d83b692ab34e9e3b) - **docs:** add examples for `string` and `float` formatting [(#6325)](https://github.com/stdlib-js/stdlib/pull/6325) _(by Karan Anand)_
 -   [`6c5c97a`](https://github.com/stdlib-js/stdlib/commit/6c5c97aeeb91faea480f67bb999b4e2c6f705cfa) - **docs:** fix example _(by Athan Reines)_
 -   [`459b0f3`](https://github.com/stdlib-js/stdlib/commit/459b0f3d8ba0d486fe172b50a189d6aa0b1ac714) - **test:** add test and document that arguments are optional _(by Athan Reines)_
