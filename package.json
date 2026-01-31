@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/console-log-each",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Insert array element values into a format string and print the result.",
   "license": "Apache-2.0",
   "author": {
@@ -52,7 +52,7 @@
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/utils-map": "^0.2.1",
-    "@stdlib/utils-nary-function": "^0.2.2",
+    "@stdlib/utils-nary-function": "^0.2.3",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
