@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
+```
+The previous example will load the latest bundled code from the deno branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/console-log-each/tags). For example,
+
+```javascript
 import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@v0.2.3-deno/mod.js';
 ```
 
@@ -108,7 +113,7 @@ import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-funct
 import filledBy from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-filled-by@deno/mod.js';
 import map from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-map@deno/mod.js';
 import abs from 'https://cdn.jsdelivr.net/gh/stdlib-js/math-base-special-abs@deno/mod.js';
-import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@v0.2.3-deno/mod.js';
+import logEach from 'https://cdn.jsdelivr.net/gh/stdlib-js/console-log-each@deno/mod.js';
 
 var rand = discreteUniform( -50, 50 );
 var x = filledBy( 10, 'float64', rand );
