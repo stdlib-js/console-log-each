@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/console-log-each",
-  "version": "0.2.3",
+  "version": "0.2.4",
   "description": "Insert array element values into a format string and print the result.",
   "license": "Apache-2.0",
   "author": {
@@ -38,26 +38,26 @@
   },
   "dependencies": {
     "@stdlib/array-base-resolve-getter": "^0.2.2",
-    "@stdlib/assert-is-collection": "^0.2.2",
-    "@stdlib/assert-is-string": "^0.2.2",
-    "@stdlib/console-log": "^0.2.2",
-    "@stdlib/string-format": "^0.2.2",
-    "@stdlib/error-tools-fmtprodmsg": "^0.2.2"
+    "@stdlib/assert-is-collection": "^0.2.3",
+    "@stdlib/assert-is-string": "^0.2.3",
+    "@stdlib/console-log": "^0.2.3",
+    "@stdlib/string-format": "^0.2.3",
+    "@stdlib/error-tools-fmtprodmsg": "^0.2.3"
   },
   "devDependencies": {
-    "@stdlib/array-complex128": "^0.3.0",
-    "@stdlib/array-filled-by": "^0.2.1",
+    "@stdlib/array-complex128": "^0.3.1",
+    "@stdlib/array-filled-by": "^0.3.0",
     "@stdlib/array-zeros": "^0.2.2",
-    "@stdlib/math-base-special-abs": "^0.2.2",
-    "@stdlib/math-base-special-pow": "^0.3.0",
+    "@stdlib/math-base-special-abs": "^0.2.3",
+    "@stdlib/math-base-special-pow": "^0.3.1",
     "@stdlib/random-base-discrete-uniform": "^0.2.1",
     "@stdlib/utils-map": "^0.2.1",
-    "@stdlib/utils-nary-function": "^0.2.3",
+    "@stdlib/utils-nary-function": "^0.2.4",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
-    "@stdlib/bench-harness": "^0.2.2"
+    "@stdlib/bench-harness": "^0.2.3"
   },
   "engines": {
     "node": ">=0.10.0",
